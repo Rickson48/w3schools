@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SAFETECH</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css"
+
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="menu" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">INICIO</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> QUEM SOMOS</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> NOSSOS CLIENTES</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTATO</a>
+    <!--CASO PRECISE DE BARRA DE PESQUISA AQUI ESTA
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>-->
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">QUEM SOMOS</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">NOSSOS CLIENTES</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTATO</a>
+    <!-- OUTRA PARTE DA BARRA DE PESQUISA
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a> -->
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">SAFETECH <span class="w3-hide-small">SISTEMAS</span></span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">QUEM SOMOS?</h3>
+  <p class="w3-center"><em>SUA SEGURANÇA EM PRIMEIRO LUGAR</em></p>
+  <p>Somos uma empresa focada em sistemas de prevenção contra incêndio, trazendo soluções precisas para os diversos setores da indústria e da construção civil, buscando sempre a segurança e tranquilidade para nossos clientes e seus patrimônios. 
+  Visamos sempre encontrar a solução mais viável e econômica, entregando confiabilidade e segurança para nossos clientes.  </p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b></b></p><br>
+      <img src="setembro2.jpg" class="w3-round w3-image " alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>Bem-vindo ao SAFATECH SISTEMAS. Somos uma empresa dedicada à segurança, especializada em sistemas contra incêndios. Nossa missão é proteger vidas e propriedades por meio de soluções avançadas e eficazes.
+      A SAFATECH é líder no mercado de segurança contra incêndios, oferecendo soluções inovadoras e confiáveis para empresas e residências. Com uma equipe de especialistas altamente qualificados, estamos comprometidos em fornecer os mais altos padrões de segurança e proteção.</p>
+    </div>
+ 
+
+
+ 
+  
+  
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">NOSSOS CLIENTES</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">NOSSOS CLIENTES</h3>
+  <p class="w3-center"><em>Conheça um pouco de nossos clientes.<br></em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="ss.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Suzano é uma empresa brasileira do setor de celulose e papel, líder mundial na produção de celulose branqueada de eucalipto">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="Nestle-Logo.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A Nestlé é a maior empresa de alimentos e bebidas do mundo.">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="valeee.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Vale a maior produtora de minério de ferro, pelotas e níquel.">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="CNPEM.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A CNPEM realiza pesquisas científicas em seus quatro laboratórios nacionai">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="download.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A Ingredion empresa converte grãos, frutas, vegetais e outros derivados em ingredientes de valor agregado e soluções de biomateriais para alimentos, bebidas, papel e corrugados, fabricados e outras indústrias.">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+    </div>
+
+   <!-- <div class="w3-col m3">
+      <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+    </div>
+    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+  </div>
+</div> -->
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTATO</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">ONDE ESTAMOS LOCALIZADOS</h3>
+  <p class="w3-center"><em>VENHA NOS CONHECER!</em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <img src="/w3images/map.jpg" class="w3-image w3-round" style="width:100%">
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Campinas, SP<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Telefone: 19 99335-8894<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mail@mail.com<br>
+      </div>
+     
+      <!--<form action="/action_page.php" target="_blank">
+        <!--<div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form> -->
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>De volta ao inicio</a>
+  <div class="w3-xlarge w3-section">
+    <div class="social-icons">
+    <a href="https://www.instagram.com/safetech_sistemas/?igsh=MXJjdDMxMmNkaG9qaQ%3D%3D"><i class="fa fa-instagram w3-hover-opacity"> </i> </a> 
+  
+    <a href="#"><i class="fa fa-linkedin w3-hover-opacity"></i> </a>
+  </div>
+  
+</footer>
+ 
+<script>
+
+</script>

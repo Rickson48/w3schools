@@ -16,7 +16,7 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('atomos-8579.gif');
+  background-image: url('src/img/home.gif');
   min-height: 100%;
 }
 
